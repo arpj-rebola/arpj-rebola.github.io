@@ -1,2 +1,3 @@
 # arpj-rebola.github.io
-Personal website of Adrian Rebola-Pardo
+
+Code is mostly based on [Yaoyao Liu's website](https://yaoyao-liu.github.io).

@@ -1,0 +1,75 @@
+main:
+
+  - semester: Winter 2024
+    courses:
+
+      - course: Logic
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=33961
+
+      - course: Model Checking
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=31271
+
+      - course: Computational Logics for AI
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=31184
+
+  - semester: Summer 2024
+    courses:
+
+      - course: Formal Models
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=30464
+
+      - course: SAT Solving
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=30463
+
+      - course: Seminar in AI
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=30896
+
+  - semester: Winter 2023
+    courses:
+
+      - course: Model Checking
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=27141
+
+      - course: Planning and Reasoning in AI
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=27142
+
+      - course: Seminar in Computational Engineering
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=28153
+
+  - semester: Summer 2023
+    courses:
+
+      - course: Formal Models
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=23501
+
+      - course: SAT Solving
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=23499
+
+  - semester: Winter 2022
+    courses:
+
+      - course: Logic
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=22779
+
+      - course: Model Checking
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=22180
+
+  - semester: Summer 2022
+    courses:
+
+      - course: Formal Models
+        university: JKU
+        link: https://moodle.jku.at/course/view.php?id=19009

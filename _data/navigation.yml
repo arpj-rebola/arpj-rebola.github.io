@@ -1,0 +1,14 @@
+main:
+
+  - title: "Teaching"
+    url: /teaching/
+    right: true 
+
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Home"
+    url: /

@@ -1,0 +1,105 @@
+main:
+
+  - title: "Open problems in interference and proofs for SAT solving"
+    venue: "Dagstuhl Seminar 24421: SAT and Interactions"
+    kind: "contributed talk"
+    place: "Schloß Dagstuhl, Germany"
+    year: "2024"
+    link: https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24421
+    slides: ../assets/slides/dagstuhl-2024.pdf
+
+  - title: "Boolean Quantifier Shifting as an Optimization Problem"
+    venue: QUANTIFY&nbsp;24
+    kind: "contributed talk"
+    place: "Nancy, France"
+    year: "2024"
+    link: https://qbf24.pages.sai.jku.at/quantify/
+    slides: ../assets/slides/quantify-2024.pdf
+
+  - title: "Even Shorter Proofs Without New Variables"
+    venue: SAT&nbsp;2023
+    kind: "contributed talk"
+    place: "Alghero, Italy"
+    year: "2023"
+    link: https://satisfiability.org/SAT23/
+    slides: ../assets/slides/sat-2023.pdf
+
+  - title: "Reasoning with Quantified Boolean Formulas"
+    venue: FM&nbsp;2023
+    kind: "tutorial"
+    place: "Lübeck, Germany"
+    year: "2023"
+    link: https://fm2023.isp.uni-luebeck.de/
+    slides: https://staff.pages.sai.jku.at/qbf-tutorial-fm2023
+
+  - title: "Interpolants and interference"
+    venue: iPRA&nbsp;2022
+    kind: "contributed talk"
+    place: "Haifa, Israel"
+    year: "2022"
+    link: https://ipra-2022.bitbucket.io/
+    slides: ../assets/slides/ipra-2022.pdf
+
+  - title: "RAT elimination"
+    venue: LPAR-23
+    kind: "contributed talk"
+    place: "online"
+    year: "2021"
+    link: https://easychair.org/smart-program/LPAR23/
+    slides: ../assets/slides/lpar-2020.pdf
+
+  - title: "Frying the egg, roasting the chicken: unit deletions in DRAT proofs"
+    venue: CPP&nbsp;2020
+    kind: "contributed talk"
+    place: "New Orleans, USA"
+    year: "2020"
+    link: https://popl20.sigplan.org/home/CPP-2020
+    slides: ../assets/slides/cpp-2020.pdf
+
+  - title: "Complete and Efficient DRAT Proof Checking"
+    venue: FMCAD&nbsp;2018
+    kind: "contributed talk"
+    place: "Austin, USA"
+    year: "2018"
+    link: https://www.cs.utexas.edu/~hunt/FMCAD/FMCAD18/
+    slides: ../assets/slides/fmcad-2018.pdf
+
+  - title: "Two flavors of DRAT"
+    venue: POS&nbsp;2018
+    kind: "contributed talk"
+    place: "Oxford, UK"
+    year: "2018"
+    link: https://www.pragmaticsofsat.org/2018/
+    slides: ../assets/slides/pos-2018.pdf
+
+  - title: "Towards a Semantics of Unsatisfiability Proofs with Inprocessing"
+    venue: LPAR-21
+    kind: "contributed talk"
+    place: "Maun, Botswana"
+    year: "2017"
+    link: https://easychair.org/smart-program/LPAR-21/LPAR-index.html
+    slides: ../assets/slides/lpar-2017.pdf
+
+  - title: "DRAT Proofs for XOR Reasoning"
+    venue: JELIA&nbsp;2016
+    kind: "contributed talk"
+    place: "Larnaca, Cyprus"
+    year: "2016"
+    link: https://www.cyprusconferences.org/jelia2016/
+    slides: ../assets/slides/jelia-2016.pdf
+
+  - title: "Interpolants from SAT solving certificates"
+    venue: Automata, Logic and Games, Workshop on Constraints 
+    kind: "tutorial"
+    place: "Singapore"
+    year: "2016"
+    link: https://imsarchives.nus.edu.sg/oldwww/Programs/016auto/index.html
+    slides: ../assets/slides/lga-2016.pdf
+
+  # - title: Boolean Quantifier Shifting as an Optimization Problem
+  #   authors: Adrian Rebola-Pardo
+  #   conference_short: QUANTIFY 2024
+  #   conference: International Workshop on Quantification
+  #   year: "2024"
+  #   bibtex: 
+  #   pdf: 
