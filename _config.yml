@@ -26,6 +26,7 @@ enable_last_update: false
 link_type: icon #text/icon
 google_scholar: https://scholar.google.com/citations?user=hdAQO0UAAAAJ
 github_link: https://github.com/arpj-rebola/
+orcid_link: https://orcid.org/0000-0001-9234-4377
 
 # Images 
 avatar: assets/img/pfp.jpg

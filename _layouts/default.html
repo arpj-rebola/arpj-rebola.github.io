@@ -127,18 +127,16 @@
         <br>
         <br>
 
-        {% if site.link_type == 'text' %}
-        [<a href="{{ site.google_scholar }}">Google Scholar</a>]
-        <br>
-        [<a href="{{ site.cv_link }}">Curriculum Vitae</a>]
-        <br>
-        {% endif %}
-
-        {% if site.link_type == 'icon' %}
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>  
+        {% endif %}
+
+        {% if site.orcid_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid_link }}">
+          <i class="ai ai-orcid" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
 
@@ -166,7 +164,6 @@
         </a>
         {% endif %}
         </div>
-        {% endif %}
         <br>
 
       </header>

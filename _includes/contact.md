@@ -3,7 +3,7 @@
 <p>
 <strong>Mailing Address:</strong> Institute for Computation and Logic, Technische Universität Wien, Favoritenstraße 9-11, 1050 Wien, Austria
 <br />
-<strong>Office Location:</strong>  Room HE0316 (3rd floor), Favoritenstraße 11</a>
+<strong>Office Location:</strong>  Room HE0316 (3rd floor), Favoritenstraße 11
 <br />
 <strong>Email:</strong> <email>adrian.rebola (at) tuwien.ac.at</email>
 <br />
@@ -14,7 +14,7 @@
 <p>
 <strong>Mailing Address:</strong> Institut für Symbolic Artificial Intelligence, Johannes Kepler Universität Linz, Altenberger Straße 69, 4040 Linz, Austria
 <br />
-<strong>Office Location:</strong>Room 343 (3rd floor), Science Park 4</a>
+<strong>Office Location:</strong>Room 343 (3rd floor), Science Park 4
 <br />
 <strong>Email:</strong> <email>adrian.rebola_pardo (at) jku.at</email>
 <br />
