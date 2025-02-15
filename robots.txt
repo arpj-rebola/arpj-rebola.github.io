@@ -3,6 +3,7 @@ Allow: index.html
 Disallow: /assets/academicons/
 Disallow: /assets/css/
 Disallow: /assets/slides/
+Disallow: /assets/preprints/
 Disallow: /assets/fonts/
 Disallow: /assets/fontawesome/
 Disallow: /assets/js/

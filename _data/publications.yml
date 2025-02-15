@@ -6,7 +6,7 @@ main:
     conference: 40th ACM/SIGAPP Symposium On Applied Computing
     year: "2025"
     comment: "to appear"
-    # preprint: aaaa
+    preprint: ../assets/preprints/sac-2025.pdf
 
   - title: "Quantifier Shifting for Quantified Boolean Formulas Revisited"
     authors: Simone Heisinger, Maximilian Heisinger, Adrian Rebola-Pardo, Martina Seidl
