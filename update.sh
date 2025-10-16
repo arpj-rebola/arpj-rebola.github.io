@@ -26,6 +26,7 @@ for page in "${pages[@]}"; do
 done
 echo "</urlset>" >> "$temp"
 mv "$temp" sitemap.xml
-# git commit -am "$1"
-# git push
+git add sitemap.xml
+git commit -am "$1"
+git push
 exit 0

@@ -5,33 +5,28 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 >
-
 <url>
  <loc>https://arpj-rebola.github.io/</loc>
  <priority>1.0</priority>
- <lastmod>2025-01-09</lastmod>
+ <lastmod>2025-10-16</lastmod>
  <changefreq>weekly</changefreq>
 </url>
-
-<url>
- <loc>https://arpj-rebola.github.io/publications/</loc>
- <priority>1.0</priority>
- <lastmod>2025-01-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://arpj-rebola.github.io/talks/</loc>
- <priority>1.0</priority>
- <lastmod>2025-01-09</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
 <url>
  <loc>https://arpj-rebola.github.io/teaching/</loc>
  <priority>1.0</priority>
- <lastmod>2025-01-09</lastmod>
+ <lastmod>2025-10-16</lastmod>
  <changefreq>weekly</changefreq>
 </url>
-
+<url>
+ <loc>https://arpj-rebola.github.io/publications/</loc>
+ <priority>1.0</priority>
+ <lastmod>2025-10-16</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://arpj-rebola.github.io/talks/</loc>
+ <priority>1.0</priority>
+ <lastmod>2025-10-16</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
 </urlset>
