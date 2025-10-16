@@ -1,45 +1,47 @@
-# Basic Information 
-title: Adrian Rebola-Pardo
-pronouns: he/they
-position: Postdoc University Assistant
-affiliation1: Vienna University of Technology
-affiliation1_short: TU Wien
-affiliation1_link: https://www.tuwien.at/
-affiliation1_email: adrian.rebola (at) tuwien.ac.at
-affiliation2: Johannes Kepler University Linz
-affiliation2_short: JKU Linz
-affiliation2_link: https://www.jku.at/
-affiliation2_email: adrian.rebola_pardo (at) jku.at
+lang: "en-US"
+canonical: https://arpj-rebola.github.io/
+attribution: This website is heavily based on Yaoyao Liu's personal website.
+attribution-url: https://github.com/yaoyao-liu/yaoyao-liu.github.io
 
-# Search Engine Optimization (SEO)
-keywords: adrian rebola, adrian rebola pardo, adrian rebola-pardo, arpj-rebola
-canonical: https://arpj-rebola.github.io
-description: Adrian Rebola-Pardo is a university assistant at the Vienna University of Technology and the Johannes Kepler University Linz. His research interests are SAT solving, solver certification, model checking and interactive theorem provers.
-
-# The option is used to enable the Illinois template.
-enable_hopkins_logo: true
-
-# The option is used to show the last update time.
-enable_last_update: false
-
-# Links
-link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?user=hdAQO0UAAAAJ
-github_link: https://github.com/arpj-rebola/
-orcid_link: https://orcid.org/0000-0001-9234-4377
-
-# Images 
-avatar: assets/img/pfp.jpg
-
-# Footnotes
-footnote: This website is heavily based on Yaoyao Liu's personal website.
-footnote_link: https://github.com/yaoyao-liu/yaoyao-liu.github.io
+include:
+  - _pages
+  - _pages/personal
 
 # The following files will be removed from the generated website.
 exclude:
   - build.sh
+  - udpate.sh
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE
   - CNAME
+
+# # Basic Information 
+# title: Adrian Rebola-Pardo
+# pronouns: he/they
+# position: Postdoc University Assistant
+# affiliation1: Vienna University of Technology
+# affiliation1_short: TU Wien
+# affiliation1_link: https://www.tuwien.at/
+# affiliation1_email: adrian.rebola (at) tuwien.ac.at
+# affiliation2: Johannes Kepler University Linz
+# affiliation2_short: JKU Linz
+# affiliation2_link: https://www.jku.at/
+# affiliation2_email: adrian.rebola_pardo (at) jku.at
+
+# wlog_title: Verifying Without Loss of Generality
+
+# # Search Engine Optimization (SEO)
+# keywords: adrian rebola, adrian rebola pardo, adrian rebola-pardo, arpj-rebola
+# wlog_keywords: model checking, verification, hardware, without loss of generality, wlog
+# canonical: https://arpj-rebola.github.io/
+# wlog_canonical: https://arpj-rebola.github.io/wlog/
+# description: Adrian Rebola-Pardo is a university assistant at the Vienna University of Technology and the Johannes Kepler University Linz. His research interests are SAT solving, solver certification, model checking and interactive theorem provers.
+# wlog_description: Extending reasoning without loss of generality to hardware model checking.
+
+# # The option is used to enable the Illinois template.
+# enable_hopkins_logo: true
+
+# # The option is used to show the last update time.
+# enable_last_update: false

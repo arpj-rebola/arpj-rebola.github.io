@@ -1,16 +1,32 @@
 main:
 
-  - title: "FERAT: A New Expansion-Based Certification Framework for Quantified Boolean Formulas"
-    authors: Marcel Simader, Adrian Rebola-Pardo, Martina Seidl
-    conference_short: SAC&nbsp;2025
-    conference: 40th ACM/SIGAPP Symposium On Applied Computing
+  - title: Short proofs without interference
+    authors:
+      - Adrian Rebola-Pardo
+    conference-short: SYNASC&nbsp;2025
+    conference: 27th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing
     year: "2025"
     comment: "to appear"
-    preprint: ../assets/preprints/sac-2025.pdf
+    preprint: https://arxiv.org/pdf/2508.09851
+
+  - title: "FERAT: A New Expansion-Based Certification Framework for Quantified Boolean Formulas"
+    authors:
+      - Marcel Simader
+      - Adrian Rebola-Pardo
+      - Martina Seidl
+    conference-short: SAC&nbsp;2025
+    conference: 40th ACM/SIGAPP Symposium On Applied Computing
+    year: "2025"
+    bibtex: https://dblp.org/rec/conf/sac/SimaderRS25.html?view=bibtex
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3672608.3707863
 
   - title: "Quantifier Shifting for Quantified Boolean Formulas Revisited"
-    authors: Simone Heisinger, Maximilian Heisinger, Adrian Rebola-Pardo, Martina Seidl
-    conference_short: IJCAR&nbsp;2024
+    authors:
+      - Simone Heisinger
+      - Maximilian Heisinger
+      - Adrian Rebola-Pardo
+      - Martina Seidl
+    conference-short: IJCAR&nbsp;2024
     conference: 12th International Joint Conference on Automated Reasoning
     year: "2024"
     bibtex: https://dblp.org/rec/conf/ijcar/HeisingerHRS24.html?view=bibtex
@@ -18,8 +34,9 @@ main:
     full: https://general-public-talks.pages.sai.jku.at/ijcar-2024/ncf-full.pdf
 
   - title: "Even Shorter Proofs Without New Variables"
-    authors: Adrian Rebola-Pardo
-    conference_short: SAT&nbsp;2023
+    authors:
+      - Adrian Rebola-Pardo
+    conference-short: SAT&nbsp;2023
     conference: 26th International Conference on Theory and Applications of Satisfiability Testing
     year: "2023"
     bibtex: https://dblp.org/rec/conf/sat/Rebola-Pardo23.html?view=bibtex
@@ -27,64 +44,86 @@ main:
     full: https://doi.org/10.48550/arXiv.2307.12098
 
   - title: "Simulating Strong Practical Proof Systems with Extended Resolution"
-    authors: Benjamin Kiesl, Adrian Rebola-Pardo, Marijn J. H. Heule, Armin Biere
-    conference_short: JAR
+    authors:
+      - Benjamin Kiesl
+      - Adrian Rebola-Pardo
+      - Marijn J. H. Heule
+      - Armin Biere
+    conference-short: JAR
     conference: Journal of Automated Reasoning
     year: "2020"
     bibtex: https://dblp.org/rec/journals/jar/KieslRHB20.html?view=bibtex
     pdf: https://doi.org/10.1007/s10817-020-09554-z
 
   - title: "Frying the egg, roasting the chicken: unit deletions in DRAT proofs"
-    authors: Johannes Altmanninger, Adrian Rebola-Pardo
-    conference_short: CPP&nbsp;2020
+    authors:
+      - Johannes Altmanninger
+      - Adrian Rebola-Pardo
+    conference-short: CPP&nbsp;2020
     conference: 9th ACM SIGPLAN International Conference on Certified Programs and Proofs
     year: "2020"
     bibtex: https://dblp.org/rec/conf/cpp/AltmanningerP20.html?view=bibtex
     pdf: https://doi.org/10.1145/3372885.3373821
 
   - title: "RAT Elimination"
-    authors: Adrián Rebola-Pardo, Georg Weissenbacher
-    conference_short: LPAR-23
+    authors:
+      - Adrian Rebola-Pardo
+      - Georg Weissenbacher
+    conference-short: LPAR-23
     conference: 23rd International Conference on Logic for Programming, Artificial Intelligence and Reasoning
     year: "2020"
     bibtex: https://dblp.org/rec/conf/lpar/Rebola-PardoW20.html?view=bibtex
     pdf: https://doi.org/10.29007/fccb
 
   - title: "Extended Resolution Simulates DRAT"
-    authors: Benjamin Kiesl, Adrian Rebola-Pardo, Marijn J. H. Heule
-    conference_short: IJCAR&nbsp;2018
+    authors:
+      - Benjamin Kiesl
+      - Adrian Rebola-Pardo
+      - Marijn J. H. Heule
+    conference-short: IJCAR&nbsp;2018
     conference: 9th International Joint Conference on Automated Reasoning
     year: "2018"
+    award: "Best paper award"
     bibtex: https://dblp.org/rec/conf/cade/KieslRH18.html?view=bibtex
     pdf: https://doi.org/10.1007/978-3-319-94205-6_34
 
   - title: "Complete and Efficient DRAT Proof Checking"
-    authors: Adrian Rebola-Pardo, Luis Cruz-Filipe
-    conference_short: FMCAD&nbsp;2018
+    authors:
+      - Adrian Rebola-Pardo
+      - Luis Cruz-Filipe
+    conference-short: FMCAD&nbsp;2018
     conference: 2018 Formal Methods in Computer Aided Design
     year: "2018"
     bibtex: https://dblp.org/rec/conf/fmcad/Rebola-PardoC18.html?view=bibtex
     pdf: https://doi.org/10.23919/FMCAD.2018.8602993
 
   - title: "A Theory of Satisfiability-Preserving Proofs in SAT Solving"
-    authors: Adrian Rebola-Pardo, Martin Suda
-    conference_short: LPAR-22
+    authors:
+      - Adrian Rebola-Pardo
+      - Martin Suda
+    conference-short: LPAR-22
     conference: 22nd International Conference on Logic for Programming, Artificial Intelligence and Reasoning
     year: "2018"
     bibtex: https://dblp.org/rec/conf/lpar/Rebola-PardoS18.html?view=bibtex
     pdf: https://doi.org/10.29007/tc7q
 
   - title: "Two flavors of DRAT"
-    authors: Adrian Rebola-Pardo, Armin Biere
-    conference_short: POS&nbsp;2018
+    authors:
+      - Adrian Rebola-Pardo
+      - Armin Biere
+    conference-short: POS&nbsp;2018
     conference: Pragmatics of SAT 2018
     year: "2018"
     bibtex: https://dblp.org/rec/conf/sat/Rebola-PardoB18.html?view=bibtex
     pdf: https://doi.org/10.29007/lt8r
 
   - title: "Fuzzing and Verifying RAT Refutations with Deletion Information"
-    authors: Walter Forkel, Tobias Philipp, Adrian Rebola-Pardo, Elias Werner
-    conference_short: FLAIRS&nbsp;2017
+    authors:
+      - Walter Forkel
+      - Tobias Philipp
+      - Adrian Rebola-Pardo
+      - Elias Werner
+    conference-short: FLAIRS&nbsp;2017
     conference: 30th International Florida Artificial Intelligence Research Society Conference
     year: "2017"
     bibtex: https://dblp.org/rec/conf/flairs/ForkelPRW17.html?view=bibtex
@@ -92,23 +131,29 @@ main:
 
   - title: "Towards a Semantics of Unsatisfiability Proofs with Inprocessing"
     authors: Tobias Philipp, Adrian Rebola-Pardo
-    conference_short: LPAR-21
+    conference-short: LPAR-21
     conference: 21st International Conference on Logic for Programming, Artificial Intelligence and Reasoning
     year: "2017"
     bibtex: https://dblp.org/rec/conf/lpar/PhilippR17.html?view=bibtex
     pdf: https://doi.org/10.29007/7jgq
 
   - title: "DRAT Proofs for XOR Reasoning"
-    authors: Tobias Philipp, Adrian Rebola-Pardo
-    conference_short: JELIA&nbsp;2016
+    authors:
+      - Tobias Philipp
+      - Adrian Rebola-Pardo
+    conference-short: JELIA&nbsp;2016
     conference: 15th European Conference in Logics in Artificial Intelligence
     year: "2016"
     bibtex: https://dblp.org/rec/conf/jelia/PhilippR16.html?view=bibtex
     pdf: https://doi.org/10.1007/978-3-319-48758-8_27
 
   - title: "Modeling the cost and coverage of an ad-hoc asset management system based on existing fleet vehicles"
-    authors: Dana Pordel, Lars Petersson, Shahin Namin, Adrian Rebola-Pardo
-    conference_short: IV&nbsp;2015
+    authors:
+      - Dana Pordel
+      - Lars Petersson
+      - Shahin Namin
+      - Adrian Rebola-Pardo
+    conference-short: IV&nbsp;2015
     conference: 2015 IEEE Intelligent Vehicles Symposium
     year: "2015"
     bibtex: https://dblp.org/rec/conf/ivs/PordelPNR15.html?view=bibtex

@@ -1,8 +1,39 @@
 main:
 
+  - title: "Look Ma! No interference!"
+    venue: SAI Seminar
+    kind: "seminar talk"
+    place: "Linz, Austria"
+    year: "2025"
+    slides: ../assets/slides/sai-2025.pdf
+
+  - title: "Proofs (that contain programs that contain proofs)*"
+    venue: AVM&nbsp;25
+    kind: "contributed talk"
+    place: "Timisoara, Romania"
+    year: "2025"
+    link: https://easychair.org/smart-program/AVM25/
+    slides: ../assets/slides/avm-2025.pdf
+
+  - title: "Short proofs without interference"
+    venue: SYNASC&nbsp;25
+    kind: "contributed talk"
+    place: "Timisoara, Romania"
+    year: "2025"
+    link: https://synasc.ro/2025/
+    slides: ../assets/slides/synasc-2025.pdf
+
+  - title: "Short, composable proofs without interference"
+    venue: WHOOPS&nbsp;25
+    kind: "contributed talk"
+    place: "Orsay, Paris"
+    year: "2025"
+    link: https://jakobnordstrom.se/WHOOPS25/
+    slides: ../assets/slides/whoops-2025.pdf
+
   - title: "Open problems in interference and proofs for SAT solving"
     venue: "Dagstuhl Seminar 24421: SAT and Interactions"
-    kind: "contributed talk"
+    kind: "seminar talk"
     place: "Schloß Dagstuhl, Germany"
     year: "2024"
     link: https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24421

@@ -2,18 +2,15 @@ User-agent: *
 Allow: index.html
 Disallow: /assets/academicons/
 Disallow: /assets/css/
-Disallow: /assets/slides/
+Disallow: /assets/favicon/
+Disallow: /assets/img/
 Disallow: /assets/preprints/
-Disallow: /assets/fonts/
-Disallow: /assets/fontawesome/
-Disallow: /assets/js/
-Disallow: /images/
-Disallow: /google_scholar_crawler/
-Disallow: /404.html
+Disallow: /assets/slides/
 Disallow: /LICENSE
 Disallow: /.gitignore
-Disallow: /.github/
-Disallow: /git-update.sh
+Disallow: /.git/
+Disallow: /build.sh
+Disallow: /update.sh
 Disallow: /README.md
 
 Sitemap: https://arpj-rebola.github.io/sitemap.xml

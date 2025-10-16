@@ -1,0 +1,41 @@
+name: Adrian Rebola-Pardo
+pronouns: he/they
+position: Postdoc University Assistant
+avatar: assets/img/pfp.jpg
+affiliations:
+  - institution: Vienna University of Technology
+    institution-url: https://www.tuwien.at/
+    institution-short: TU Wien
+    department: Forsyte Research Unit
+    department-url: https://www.forsyte.tuwien.ac.at/
+    email: adrian.rebola (at) tuwien.ac.at
+    address: Institute for Computation and Logic, Technische Universität Wien, Favoritenstraße 9-11, 1050 Wien, Austria
+    office:  Room HE0316 (3rd floor), Favoritenstraße 11
+    phone: +43-1-58801-740074
+  - institution: Johannes Kepler University Linz
+    institution-url: https://www.jku.at/
+    institution-short: JKU Linz
+    department: Institute for Symbolic Artificial Intelligence
+    department-url: https://www.jku.at/en/institute-for-symbolic-artificial-intelligence/
+    email: adrian.rebola_pardo (at) jku.at
+    address: Institut für Symbolic Artificial Intelligence, Johannes Kepler Universität Linz, Altenberger Straße 69, 4040 Linz, Austria
+    office: Room 343 (3rd floor), Science Park 4
+    phone: +43 732 2468 5751
+
+socials:
+  - hint: Google Scholar
+    icon: "ai ai-google-scholar"
+    url: https://scholar.google.com/citations?user=hdAQO0UAAAAJ
+  - hint: GitHub
+    icon: "fab fa-github"
+    url: https://github.com/arpj-rebola/
+  - hint: ORCID
+    icon: "ai ai-orcid"
+    url: https://orcid.org/0000-0001-9234-4377
+  - hint: DBLP
+    icon: "ai ai-dblp"
+    url: https://dblp.org/pid/167/3358.html
+  
+keywords: adrian rebola, adrian rebola pardo, adrian rebola-pardo, arpj-rebola
+canonical: https://arpj-rebola.github.io/
+description: Adrian Rebola-Pardo is a university assistant at the Vienna University of Technology and the Johannes Kepler University Linz. His research interests are SAT solving, solver certification, model checking and interactive theorem provers.

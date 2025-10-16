@@ -1,0 +1,403 @@
+/* # General text */
+
+/* ## General text > Text formats */
+
+body {
+    background-color: #fff;
+    padding: 0px;
+    font: 16.0px/1.5 "Crimson Pro", serif;
+    color: #595959;
+    font-weight: 400;
+    margin: 0;
+}
+
+strong {
+    color: #222;
+    font-weight: 500;
+}
+
+small { font-size: 11px; }
+
+email {
+    font-size: 14px;
+    font-family: "Ubuntu Mono";
+}
+
+code {
+    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    color: #333;
+}
+
+pre {
+    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    max-width: 500px;
+    padding: 8px 15px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    overflow-x: auto;
+}
+
+/* ## General text > Links */
+
+a {
+    color: hsl(292, 49%, 55%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(272, 47%, 37%);
+}
+
+.social-icon {
+    display: inline-block;
+    background-color: transparent;
+    color: #13294B !important;
+    font-size: 1.15rem;
+    margin-right: 0.2rem;
+}
+
+.social-icon a:hover {
+    background-color: transparent;
+    color: #13294B;
+    transform: scale(1.2);
+}
+
+
+/* ## General text > Headings */
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #13294B;
+    margin: 80px 0 20px;
+    line-height: 1.1;
+}
+
+h2 {
+    color: #13294B;
+    font-weight: 500;
+    margin: 40px 0px 15px;
+    font-size: 157%;
+    line-height: 1.1;
+}
+
+h3 {
+    font-weight: 600;
+    color: #13294B;
+    margin: 20px 0 20px;
+    line-height: 1.1;
+}
+
+h4, h5, h6 {
+    font-weight: 600;
+    color: #13294B;
+    margin: 0 0 20px;
+}
+
+/* ## General text > Typesetting */
+
+p, ul, ol, table, pre, dl {
+    margin: 0 0 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+dt {
+    color: #444;
+    font-weight: 500;
+}
+
+th {
+    color: #444;
+}
+
+hr {
+    border: 0;
+    background: #e5e5e5;
+    height: 1px;
+    margin: 0 0 20px;
+}
+
+footer {
+    width: 232px;
+    float: left;
+    position: fixed;
+    bottom: 30px;
+    -webkit-font-smoothing:
+    subpixel-antialiased;
+    text-align: center;
+}
+
+blockquote {
+    border-left: 1px solid #e5e5e5;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* # Page geometry */
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 280px;
+    float: left;
+    position: fixed;
+    -webkit-font-smoothing: subpixel-antialiased;
+    padding-top: 5.5em;
+    text-align: center;
+}
+
+section {
+    width: 650px;
+    float: right;
+    padding-top: 1.2em;
+    padding-bottom: 50px;
+}
+
+/* # Navigation bar */
+
+.navigation {
+    background-color: #724879;
+    overflow: hidden;
+	position: fixed;
+	z-index: 999;
+    width: 100%;
+    display: inline;
+}
+
+.navigation a {
+    float: right;
+    color: #f2f2f2;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px 9px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 0 0;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navigation > flush {
+    float: right;
+    color: transparent;
+    padding: 1px;
+    text-decoration: none;
+    margin: 0;
+    margin-right: 3rem;
+}
+
+/* # Avatar sidebar */
+
+/* ## Avatar sidebar > Contact details */
+
+.institution {
+    font-weight: 500;
+    font-size: 120%;
+}
+
+institution {
+    color: #13294B;
+}
+
+.department {
+    font-weight: 250;
+    font-size: 120%;
+}
+
+department {
+    color: #425673;
+}
+
+/* ## Avatar sidebar > Social networks */
+
+.social-networks {
+    font-size: 1.6rem;
+}
+
+.social-networks a {
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin: 0 0.5rem 0;
+    background-color: transparent;
+    color: #13294B !important;
+}
+
+.social-networks a:last-child {
+    margin-right: 0;
+}
+
+.social-networks a:hover {
+    background-color: transparent;
+    color: #13294B;
+    transform: scale(1.2);
+}
+
+/* ## Avatar sidebar > Profile picture */
+
+.image { border-radius: 0.35em; border: 0; display: inline-block; position: relative; }
+
+.image:before { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; border-radius: 0.35em; content: ''; display: block; height: 100%; left: 0; opacity: 0.5; position: absolute; top: 0; width: 100%; }
+
+.image.avatar { border-radius: 100%; }
+
+.image.avatar:before { display: none; }
+
+.image.avatar img { border-radius: 100%; width: 45%; padding: 20px; }
+
+#header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
+
+.avatar-bar h1 { margin: 10px 0 10px; }
+
+.pub-row { display: flex; align-items: center; }
+
+
+
+
+/* # Tabulation styles */
+
+/* ## Tabulation styles > Teaching */
+
+ol.teaching {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+ol.teaching > li {
+    color: #13294B;
+    font-weight: 500;
+    margin: 2rem 0px 1rem;
+    font-size: 130%;
+    line-height: 1.1;
+}
+
+ol.teaching ul.semester {
+    list-style: none;
+    padding: 0;
+    margin: 0 1rem 0;
+}
+
+ol.teaching ul.semester > li {
+    margin: 0.8rem 0px 0.2rem;
+}
+
+semester {
+    color: #13294B;
+    font-weight: 500;
+    margin: 40px 0px 15px;
+    font-size: 157%;
+    line-height: 1.1;
+}
+
+.course {
+    margin: 10px 15px 0px;
+}
+
+
+/* ## Tabulation styles > Publications */
+
+ol.publications {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol.publications > li {
+    margin: 1.5rem 1rem 1rem;
+}
+
+ol.publications > li > .header {
+    margin: 0;
+    font-weight: bolder;
+}
+
+ol.publications > li > .header > nametitle {
+    color: hsl(292, 49%, 55%);
+}
+
+ol.publications > li > .authors {
+    margin: 0;
+}
+
+
+ol.publications > li > .venue {
+    margin: 0;
+    font-style: italic;
+}
+
+ol.publications > li > .venue > a {
+    margin: 0;
+    color: #595959;
+}
+
+ol.publications > li > .award {
+    margin: 0;
+    color: #b51261;
+    font-weight: 600;
+}
+
+ol.publications > li > .links {
+    margin: 0.1rem 0 0;
+}
+
+ol.publications > li > .links a.btn {
+    color: #13294B;
+    border: 1px solid #13294B;
+    padding: 0.2rem 0.5rem 0.2rem;
+    margin: 0 0.2rem 0;
+    font-size: 75%;
+    font-weight: bolder;
+}
+
+ol.publications > li > .links a.btn:hover {
+    color: #255194;
+    border-color: #255194;
+}
+
+
+lightonly { visibility: visible; }
+
+darkonly { visibility: hidden; }
+
+education { font-weight: 500; font-size: 115%; }
+
+papertitle { font-weight: 600; font-size: 100%; }
+
+@media print, screen and (max-width: 960px) { .pub-row { display: flex; align-items: center; } div.wrapper { width: auto; margin: 0; } header, section, footer { float: none; position: static; width: auto; } header { padding-top: 80px; } section { border: 1px solid #e5e5e5; border-width: 1px 0; padding: 20px 0; margin: 0 0 20px; } header a small { display: inline; } header ul { position: absolute; right: 50px; top: 52px; } .image.avatar img { border-radius: 100%; width: 117px; padding: 20px 20px 20px 20px; } section { padding:20px 20px }}
+
+@media print, screen and (max-width: 960px) { body { word-wrap: break-word; padding: 0px; } .pub-row { display: flex; align-items: center; } pre, code { word-wrap: normal; } }
+
+@media print, screen and (max-width: 480px) { .pub-row { display: block; align-items: center; } body { padding: 0px; } header ul { width: 99%; } header li, header ul li + li + li { width: 33%; } .image.avatar img { border-radius: 100%; width: 95px; padding: 20px; } }
+
+@media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
+
+.biblink { text-decoration: none; display: inline; margin-right: 0px; }
+
+.fakelink { text-decoration: none; cursor: pointer; }
+
+.bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
