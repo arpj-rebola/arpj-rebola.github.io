@@ -6,14 +6,17 @@ backpath: ./
 
 <h1 id="about-me"></h1>
 
-<h2></h2>
+<p>
+    I am a Postdoctoral University Assistant in the
+    <a href="{{ site.data.personal.affiliations[0].department-url }}">{{ site.data.personal.affiliations[0].department }}</a> at
+    <a href="{{ site.data.personal.affiliations[0].institution-url }}">{{ site.data.personal.affiliations[0].institution }}</a>, as well as in the
+    <a href="{{ site.data.personal.affiliations[1].department-url }}">{{ site.data.personal.affiliations[1].department }}</a> at
+    <a href="{{ site.data.personal.affiliations[1].department-url }}">{{ site.data.personal.affiliations[1].institution }}</a>.
+</p>
 
-I am a Postdoctoral University Assistant in the
-[{{ site.data.personal.affiliations[0].department }}]({{ site.data.personal.affiliations[0].department-url }})
-at [{{ site.data.personal.affiliations[0].institution }}]({{ site.data.personal.affiliations[0].institution-url }}), as well as in the
-[{{ site.data.personal.affiliations[1].department }}]({{ site.data.personal.affiliations[1].department-url }}) at [{{ site.data.personal.affiliations[1].institution }}]({{ site.data.personal.affiliations[1].department-url }}).
-
-My research focuses on **solver certification** and **data extraction from proofs**, especially within the context of reasoning without loss of generality in finite domains (SAT/QBF). As of lately I am transitioning into a broader scope including **model checking**, **interactive software verification** and untapped use cases for logic-based solvers (specifically, **flexible scheduling** and **procedural content generation**). If you are interested in academic collaboration in either of these topics, please send me an email.
+<p>
+    My research focuses on <strong>solver certification</strong> and <strong>data extraction from proofs</strong>, especially within the context of reasoning without loss of generality in finite domains (SAT/QBF). As of lately I am transitioning into a broader scope including <strong>model checking</strong>, <strong>interactive software verification</strong> and untapped use cases for logic-based solvers (specifically, <strong>flexible scheduling</strong> and <strong>procedural content generation</strong>). If you are interested in academic collaboration in either of these topics, please send me an email.
+</p>
 
 <h2>Biography</h2>
 
@@ -30,7 +33,7 @@ I completed my PhD in Computer Science at the [Forsyte Research Unit](https://fo
 <br />
 <strong>Office location: </strong>{{ affiliation.office }}
 <br />
-<strong>Email: </strong>{{ affiliation.email }}
+<strong>Email: </strong><email>{{ affiliation.email }}</email>
 <br />
 <strong>Phone: </strong>{{ affiliation.phone }}
 <br />

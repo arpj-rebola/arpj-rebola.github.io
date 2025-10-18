@@ -8,7 +8,7 @@
 <url>
  <loc>https://arpj-rebola.github.io/</loc>
  <priority>1.0</priority>
- <lastmod>2025-10-16</lastmod>
+ <lastmod>2025-10-17</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
@@ -20,11 +20,41 @@
 <url>
  <loc>https://arpj-rebola.github.io/publications/</loc>
  <priority>1.0</priority>
- <lastmod>2025-10-16</lastmod>
+ <lastmod>2025-10-17</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
  <loc>https://arpj-rebola.github.io/talks/</loc>
+ <priority>1.0</priority>
+ <lastmod>2025-10-16</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://arpj-rebola.github.io/wlog</loc>
+ <priority>1.0</priority>
+ <lastmod>2025-10-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://arpj-rebola.github.io/wlog/jobs/</loc>
+ <priority>1.0</priority>
+ <lastmod>2025-10-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://arpj-rebola.github.io/wlog/jobs/ICT25-051-phd</loc>
+ <priority>1.0</priority>
+ <lastmod>2025-10-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://arpj-rebola.github.io/wlog/jobs/ICT25-051-postdoc</loc>
+ <priority>1.0</priority>
+ <lastmod>2025-10-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://arpj-rebola.github.io/wlog/people/</loc>
  <priority>1.0</priority>
  <lastmod>2025-10-16</lastmod>
  <changefreq>weekly</changefreq>

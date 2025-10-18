@@ -1,0 +1,13 @@
+:root {
+    --link-idle-color: hsl(148, 68%, 40%);
+    --link-hover-color: hsl(147, 83%, 23%);
+    --button-idle-color: hsl(156, 75%, 31%);
+    --navigation-bar-color: #487949;
+    --block-color: hsl(148, 20%, 80%);
+    --block-text: hsl(160, 20%, 20%);
+    --block-title: hsl(160, 60%, 18%);
+    --header-max-width: 250px;
+    --header-width: 25%;
+    --section-max-width: 780px;
+    --section-width: 65%;
+}

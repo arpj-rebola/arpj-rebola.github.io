@@ -2,27 +2,26 @@
 <html lang="{{ site.lang }}">
     <head>
         {% if page.title %}
-            <title>{{ site.data.personal.name }} | {{ site.data.personal.affiliations | map: "institution-short" | join: ", " }} | {{ page.title }}</title>
+            <title>{{ site.data.wlog.title }} | {{ site.data.wlog.affiliation-short }} | {{ page.title }}</title>
         {% else %}
-            <title>{{ site.data.personal.name }} | {{ site.data.personal.affiliations | map: "institution-short" | join: ", " }}</title>
+            <title>{{ site.data.wlog.title }} | {{ site.data.wlog.affiliation-short }}</title>
         {% endif %}
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <meta name="description" content="{{ site.data.personal.description }}">
+        <meta name="description" content="{{ site.data.wlog.description }}">
         <meta name="keywords" content="{{ site.data.personal.keywords }}">
 
         <meta property="og:type" content="website">
         {% if page.title %}
-            <meta property="og:title" content="{{ site.data.personal.name }} | {{ site.data.personal.affiliations | map: "institution-short" | join: ", " }} | {{ page.title }}">
+            <meta property="og:title" content="{{ site.data.wlog.title }} | {{ site.data.wlog.affiliation-short }} | {{ page.title }}">
         {% else %}
-            <meta property="og:title" content="{{ site.data.personal.name }} | {{ site.data.personal.affiliations | map: "institution-short" | join: ", " }}">
+            <meta property="og:title" content="{{ site.data.wlog.title }} | {{ site.data.wlog.affiliation-short }}">
         {% endif %}
-        <meta property="og:url" content="{{ site.data.personal.canonical }}">
-        <meta property="og:site_name" content="{{ site.data.personal.name }} | {{ site.data.personal.affiliations | map: "institution-short" | join: ", " }}">
-        <meta property="og:description" content="{{ site.data.personal.description }}">
+        <meta property="og:url" content="{{ site.data.wlog.canonical }}">
+        <meta property="og:site_name" content="{{ site.data.wlog.title }} | {{ site.data.wlog.affiliation-short }}">
+        <meta property="og:description" content="{{ site.data.wlog.description }}">
         <meta property="og:locale" content="default">
-        <meta property="og:image" content="{{ site.data.personal.avatar }}">
 
         <link rel="apple-touch-icon" sizes="180x180" href="{{ page.backpath }}assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="{{ page.backpath }}assets/favicon/favicon-32x32.png">
@@ -31,22 +30,24 @@
         <link rel="canonical" href="{{ site.canonical }}{{ page.permalink }}"/>
         
         <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="{{ page.backpath }}assets/img/pfp.jpg">
         <meta name="theme-color" content="#ffffff">
         
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin=anonymous>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap">
-        <link rel="stylesheet" href="{{ page.backpath }}assets/css/personal.css">
+        <link rel="stylesheet" href="{{ page.backpath }}assets/css/wlog.css">
         <link rel="stylesheet" href="{{ page.backpath }}assets/css/style.css">
     </head>
     <body>
     
         <div class="navigation">
             <flush></flush>
-            {% assign navitems = site.data.personal.navigation | reverse %}
+            {% assign navitems = site.data.wlog.navigation | reverse %}
             {% for item in navitems %}
                 <a href="{{ item.url }}">{{ item.title }}</a>
             {% endfor %}
@@ -54,25 +55,11 @@
         
         <div class="wrapper">
             <div class="sidebar">
-                    {% if site.data.personal.avatar %}
-                        <a class="avatar-pfp"><img src="{{ page.backpath }}{{ site.data.personal.avatar }}" alt="avatar" /></a>
-                    {% endif %}
-
-                    <div class="title">{{ site.data.personal.name }}<br />({{ site.data.personal.pronouns }})</div>
-
-                    <div class="subtitle-short">{{ site.data.personal.position }}</div>
-
-                    {% for affiliation in site.data.personal.affiliations %}
-                        <div class="institution"><a href="{{ affiliation.institution-url }}" rel="noopener">{{ affiliation.institution }}</a></div>
-                        <div class="department"><a href="{{ affiliation.department-url }}" rel="noopener">{{ affiliation.department }}</a></div>
-                        <div class="email">{{ affiliation.email }}</div>
-                    {% endfor %}
-
-                    <div class="social-networks">
-                        {% for social in site.data.personal.socials %}
-                            <a class="social-icon" href="{{ social.url }}"><i class="{{ social.icon }}"></i></a>
-                        {% endfor %}
-                    </div>
+                {% if site.data.wlog.logo %}
+                    <a class="project-logo"><img src="{{ page.backpath }}{{ site.data.wlog.logo }}" alt="logo" /></a>
+                {% endif %}
+                <div class="title">{{ site.data.wlog.title }}</div>
+                <div class="subtitle-long">{{ site.data.wlog.motto }}</div>
             </div>
             <div class="contents">
 
@@ -83,13 +70,13 @@
                         <a href="{{ source.url }}" rel="noopener">{{ source.text }}</a>
                         <br>
                     {% endfor %}
-                    {% for source in site.data.personal.attribution %}
+                    {% for source in site.data.wlog.attribution %}
                         <a href="{{ source.url }}" rel="noopener">{{ source.text }}</a>
                         <br>
                     {% endfor %}
                 </div>
                 
-            </div>
+            </section>
         </div>
     </body>
 </html>

@@ -1,11 +1,14 @@
 lang: "en-US"
 canonical: https://arpj-rebola.github.io/
-attribution: This website is heavily based on Yaoyao Liu's personal website.
-attribution-url: https://github.com/yaoyao-liu/yaoyao-liu.github.io
+attribution:
+  - text: "This website is based on Yaoyao Liu's personal website."
+    url: "https://github.com/yaoyao-liu/homepage"
 
 include:
   - _pages
   - _pages/personal
+  - _pages/wlog
+  - _pages/wlog/jobs
 
 # The following files will be removed from the generated website.
 exclude:

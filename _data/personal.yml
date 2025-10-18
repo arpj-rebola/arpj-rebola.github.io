@@ -15,7 +15,7 @@ affiliations:
   - institution: Johannes Kepler University Linz
     institution-url: https://www.jku.at/
     institution-short: JKU Linz
-    department: Institute for Symbolic Artificial Intelligence
+    department: Institute for Symbolic AI
     department-url: https://www.jku.at/en/institute-for-symbolic-artificial-intelligence/
     email: adrian.rebola_pardo (at) jku.at
     address: Institut für Symbolic Artificial Intelligence, Johannes Kepler Universität Linz, Altenberger Straße 69, 4040 Linz, Austria
@@ -35,7 +35,18 @@ socials:
   - hint: DBLP
     icon: "ai ai-dblp"
     url: https://dblp.org/pid/167/3358.html
-  
+
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Talks"
+    url: /talks/
+  - title: "Teaching"
+    url: /teaching/
+
+
 keywords: adrian rebola, adrian rebola pardo, adrian rebola-pardo, arpj-rebola
-canonical: https://arpj-rebola.github.io/
+canonical: https://arpj-rebola.github.io
 description: Adrian Rebola-Pardo is a university assistant at the Vienna University of Technology and the Johannes Kepler University Linz. His research interests are SAT solving, solver certification, model checking and interactive theorem provers.
