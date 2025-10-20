@@ -2,6 +2,7 @@ name: Adrian Rebola-Pardo
 pronouns: he/they
 position: Postdoc University Assistant
 avatar: assets/img/pfp.jpg
+avatar-link: /
 affiliations:
   - institution: Vienna University of Technology
     institution-url: https://www.tuwien.at/
@@ -45,6 +46,8 @@ navigation:
     url: /talks/
   - title: "Teaching"
     url: /teaching/
+
+# notice: personal-notice-hiring.md
 
 
 keywords: adrian rebola, adrian rebola pardo, adrian rebola-pardo, arpj-rebola

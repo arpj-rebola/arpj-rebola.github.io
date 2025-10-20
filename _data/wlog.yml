@@ -6,6 +6,7 @@ funding: Vienna Science and Technology Fund
 funding-short: WWTF
 funding-url: https://www.wwtf.at/
 logo: assets/img/wlog-logo.svg
+logo-link: /wlog/
 motto: Bringing human insight and model checkers together
 attribution:
   - text: The WLOG logo was created by Peter Pfeiffer.
@@ -36,12 +37,25 @@ jobs:
     deadline: 27 November 2025
 
 people:
-  - name: Adrian Rebola-Pardo
-    role: Principal investigator
-    url: https://arpj-rebola.github.io
-  - name: Georg Weissenbacher
-    role: Co-principal investigator
-    url: https://www.georg.weissenbacher.science/
+  staff:
+    - name: Adrian Rebola-Pardo
+      role: Principal investigator
+      url: /
+      pfp: assets/img/pfp.jpg
+    - name: Georg Weissenbacher
+      role: Co-principal investigator
+      url: https://www.georg.weissenbacher.science/
+      pfp: assets/img/georg-weissenbacher.jpeg
+    - role: Doctoral student
+      url: /wlog/jobs/ICT25-051-phd
+    - role: Postdoctoral researcher
+      url: /wlog/jobs/ICT25-051-postdoc
+  collaborators: []
+  opening:
+    name: Open position
+    pfp: assets/img/open-position.svg
+
+notice: wlog-notice-hiring.md
 
 links:
   docfunds: https://forsyte.at/docfunds/

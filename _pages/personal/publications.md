@@ -8,7 +8,7 @@ backpath: ../../
 <h1 id="publications">Publications
     <span class="social-networks">
         {% for social in site.data.personal.socials %}
-            {% if social.hint == "DBLP" %}<a href="{{ social.url }}"><i class="{{ social.icon }}"></i></a>{% endif %}
+            {% if social.hint == "DBLP" %}<a class="social-icon" href="{{ social.url }}"><i class="{{ social.icon }}"></i></a>{% endif %}
             {% if social.hint == "Google Scholar" %}<a href="{{ social.url }}"><i class="{{ social.icon }}"></i></a>{% endif %}
         {% endfor %}
     </span>

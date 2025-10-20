@@ -11,14 +11,9 @@ This project works towards extending techniques for reasoning and certification 
 as a middle ground between push-button model checking and proof assistant-based verification.
 </div>
 
-<div class="notice">
-    <headline>We're hiring!</headline>
-    We are looking for excellent candidates for a 4-year doctoral student position
-    and a 2-year postdoctoral researcher position.
-    <div class="button-row">
-        <a class="btn-big" href="/wlog/jobs/">Read more</a>
-    </div>
-</div>
+{% if site.data.wlog.notice %}
+{% include {{ site.data.wlog.notice }} %}
+{% endif %}
 
 A recent surge in custom silicon design for general purpose CPUs, as well as accelerators, led to an increased demand for rigorous and scalable verification techniques. Formal verification can provide strong correctness guarantees and is widely deployed in electronic design automation. However, automated formal verification techniques (such as model checking) suffer from scalability challenges. Whenever these techniques time out or run out of memory, no guarantees are obtained. Tools often feature hard-coded search heuristics and reductions that can alleviate this issue, so long as they can automatically identify the right reduction.
 

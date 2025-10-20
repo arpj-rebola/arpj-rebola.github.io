@@ -18,6 +18,10 @@ backpath: ./
     My research focuses on <strong>solver certification</strong> and <strong>data extraction from proofs</strong>, especially within the context of reasoning without loss of generality in finite domains (SAT/QBF). As of lately I am transitioning into a broader scope including <strong>model checking</strong>, <strong>interactive software verification</strong> and untapped use cases for logic-based solvers (specifically, <strong>flexible scheduling</strong> and <strong>procedural content generation</strong>). If you are interested in academic collaboration in either of these topics, please send me an email.
 </p>
 
+{% if site.data.personal.notice %}
+{% include {{ site.data.personal.notice }} %}
+{% endif %}
+
 <h2>Biography</h2>
 
 I completed my PhD in Computer Science at the [Forsyte Research Unit](https://forsyte.at/) at TU Wien under the supervision of [Georg Weissenbacher](https://www.georg.weissenbacher.science/). As a part of the [LogiCS doctoral college](https://www.vcla.at/msca/programme/), I was also co-supervised by [Armin Biere](https://cca.informatik.uni-freiburg.de/biere/). Previously I got my MSc in Computational Logic from [TU Dresden](https://tu-dresden.de/) and [Free University of Bolzano](https://www.unibz.it/). I also spent some time at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/) and [the lab formerly known as NICTA](https://research.csiro.au/data61/).

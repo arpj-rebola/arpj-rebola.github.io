@@ -24,10 +24,10 @@
         <meta property="og:locale" content="default">
         <meta property="og:image" content="{{ site.data.personal.avatar }}">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ page.backpath }}assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ page.backpath }}assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ page.backpath }}assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="{{ page.backpath }}assets/favicon/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ page.backpath }}assets/favicon/personal/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ page.backpath }}assets/favicon/personal/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ page.backpath }}assets/favicon/personal/favicon-16x16.png">
+        <link rel="manifest" href="{{ page.backpath }}assets/favicon/personal/site.webmanifest">
         <link rel="canonical" href="{{ site.canonical }}{{ page.permalink }}"/>
         
         <meta name="msapplication-TileColor" content="#ffffff">
@@ -55,7 +55,7 @@
         <div class="wrapper">
             <div class="sidebar">
                     {% if site.data.personal.avatar %}
-                        <a class="avatar-pfp"><img src="{{ page.backpath }}{{ site.data.personal.avatar }}" alt="avatar" /></a>
+                        <a class="avatar-pfp" href="{{ site.data.personal.avatar-link }}"><img src="{{ page.backpath }}{{ site.data.personal.avatar }}" alt="avatar" /></a>
                     {% endif %}
 
                     <div class="title">{{ site.data.personal.name }}<br />({{ site.data.personal.pronouns }})</div>

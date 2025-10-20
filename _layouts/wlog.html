@@ -23,10 +23,10 @@
         <meta property="og:description" content="{{ site.data.wlog.description }}">
         <meta property="og:locale" content="default">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ page.backpath }}assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ page.backpath }}assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ page.backpath }}assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="{{ page.backpath }}assets/favicon/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ page.backpath }}assets/favicon/wlog/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ page.backpath }}assets/favicon/wlog/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ page.backpath }}assets/favicon/wlog/favicon-16x16.png">
+        <link rel="manifest" href="{{ page.backpath }}assets/favicon/wlog/site.webmanifest">
         <link rel="canonical" href="{{ site.canonical }}{{ page.permalink }}"/>
         
         <meta name="msapplication-TileColor" content="#ffffff">
@@ -56,10 +56,11 @@
         <div class="wrapper">
             <div class="sidebar">
                 {% if site.data.wlog.logo %}
-                    <a class="project-logo"><img src="{{ page.backpath }}{{ site.data.wlog.logo }}" alt="logo" /></a>
+                    <a class="project-logo" href="{{ site.data.wlog.logo-link }}"><img src="{{ page.backpath }}{{ site.data.wlog.logo }}" alt="logo" /></a>
                 {% endif %}
                 <div class="title">{{ site.data.wlog.title }}</div>
                 <div class="subtitle-long">{{ site.data.wlog.motto }}</div>
+                <div class="funding"><a href="{{ site.data.wlog.funding-url }}">This project is funded by the {{ site.data.wlog.funding }} ({{ site.data.wlog.funding-short }})</a></div>
             </div>
             <div class="contents">
 

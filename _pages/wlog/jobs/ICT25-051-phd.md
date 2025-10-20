@@ -37,10 +37,10 @@ and co-supervised by
 <a href="{{ site.data.wlog.people[0].url }}">{{ site.data.wlog.people[0].name }}</a>.
 Furthermore, the student will be integrated in our
 <a href="{{ site.data.wlog.links.docfunds }}">Doctoral college in Automated Reasoning</a>.
-The doctoral student position is financially supported for 4&nbsp;years full-time (40 hours/week).
+The doctoral student position is financially supported for <strong>4&nbsp;years full-time (40 hours/week)</strong>.
 Entry level salary is determined by the pay grade B1 of the
 <a href="{{ site.data.wlog.links.kollektivvertrag }}">Austrian collective agreement for university staff</a>.
-This is currently a minimum of EUR&nbsp;3,714.80/month gross, 14&nbsp;times/year.
+This is currently a minimum of <strong>EUR&nbsp;3,714.80/month gross, 14&nbsp;times/year</strong>.
 Relevant working experiences may increase the monthly income.
 
 TU Wien is committed to increasing the proportion of women in particular in leadership positions.

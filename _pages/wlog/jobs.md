@@ -15,7 +15,7 @@ Unfortunately.
 
 {% else %}
 
-We are currently looking for excellent candidates to join our team at the
+We are currently looking for excellent candidates to join <a href="/wlog/people">our team</a> at the
 <a href="{{ site.data.wlog.affiliation-url }}">{{ site.data.wlog.affiliation }}</a>.
 
 {% endif %}

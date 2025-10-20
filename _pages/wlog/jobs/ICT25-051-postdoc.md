@@ -36,11 +36,11 @@ and <a href="{{ site.data.wlog.people[0].url }}">{{ site.data.wlog.people[0].nam
 in addition to PhD students from the
 <a href="{{ site.data.wlog.links.docfunds }}">Doctoral college in Automated Reasoning</a>.
 
-The research assistant position is financially supported for 2&nbsp;years full-time (40 hours/week),
-adaptable to 4&nbsp;years part-time (20 hours/week).
+The research assistant position is financially supported for <strong>2&nbsp;years full-time (40 hours/week),
+adaptable to 4&nbsp;years part-time (20 hours/week)</strong>.
 Entry level salary is determined by the pay grade B1 of the
 <a href="{{ site.data.wlog.links.kollektivvertrag }}">Austrian collective agreement for university staff</a>.
-This is currently a minimum of EUR&nbsp;4,932.90/month (full-time) or EUR&nbsp;2,466.45 (part-time) gross, 14&nbsp;times/year. Relevant working experiences may increase the monthly income.
+This is currently a minimum of <strong>EUR&nbsp;4,932.90/month (full-time) or EUR&nbsp;2,466.45 (part-time) gross, 14&nbsp;times/year</strong>. Relevant working experiences may increase the monthly income.
 
 TU Wien is committed to increasing the proportion of women in particular in leadership positions.
 Female applicants are explicitly encouraged to apply.
