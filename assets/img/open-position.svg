@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="99.999992mm"
+   height="62.992714mm"
+   viewBox="0 0 99.999992 62.992714"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="open-position.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-others="true"
+     inkscape:object-nodes="false"
+     inkscape:snap-center="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.68239338"
+     inkscape:cx="293.08608"
+     inkscape:cy="379.54647"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="78.354729"
+       y="412.97089"
+       width="511.76721"
+       height="131.69983"
+       id="rect7227" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text7225"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect7227);fill:#000000;fill-opacity:1;stroke:none" />
+    <g
+       id="g95303"
+       transform="matrix(1.0444397,0,0,1.0444397,-25.204853,-39.03211)">
+      <rect
+         style="fill:none;fill-opacity:0.415199;stroke:#0a6b36;stroke-width:3.78686;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0.5;stroke-dasharray:none;stroke-opacity:1"
+         id="rect846"
+         width="91.958252"
+         height="56.525585"
+         x="26.025845"
+         y="39.264767"
+         ry="21.274004" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:21.1667px;line-height:0.95;font-family:sans-serif;letter-spacing:-0.867833px;fill:#096b36;fill-opacity:1;stroke:none;stroke-width:0.469947;stroke-opacity:1"
+         x="72.010139"
+         y="64.798866"
+         id="text11083"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-anchor:middle;fill:#096b36;fill-opacity:1;stroke:none;stroke-width:0.469947;stroke-opacity:1"
+           x="72.010139"
+           y="64.798866"
+           id="tspan29919"
+           dy="0">OPEN</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-anchor:middle;fill:#096b36;fill-opacity:1;stroke:none;stroke-width:0.469947;stroke-opacity:1"
+           x="71.576225"
+           y="85.304451"
+           id="tspan66565">POSITION</tspan></text>
+    </g>
+  </g>
+</svg>
