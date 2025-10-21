@@ -21,7 +21,7 @@ backpath: ./
 {% for category in site.categories %}
 {% if category[0] == "personal-notices" %}
 {% for post in category[1] %}
-{{ post }}
+{{ post.content }}
 {% endfor %}
 {% endif %}
 {% endfor %}
@@ -39,7 +39,7 @@ backpath: ./
         <div class="headline">
             {{ post.title }}
         </div>
-        {{ post }}
+        {{ post.content }}
     </div>
 </div>
 {% endfor %}
