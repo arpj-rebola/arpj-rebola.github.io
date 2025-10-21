@@ -14,7 +14,7 @@ as a middle ground between push-button model checking and proof assistant-based 
 {% for category in site.categories %}
 {% if category[0] == "wlog-notices" %}
 {% for post in category[1] %}
-{{ post }}
+{{ post.content }}
 {% endfor %}
 {% endif %}
 {% endfor %}
@@ -32,7 +32,7 @@ as a middle ground between push-button model checking and proof assistant-based 
         <div class="headline">
             {{ post.title }}
         </div>
-        {{ post }}
+        {{ post.content }}
     </div>
 </div>
 {% endfor %}
