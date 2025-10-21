@@ -3,6 +3,7 @@ canonical: https://arpj-rebola.github.io/
 attribution:
   - text: "This website is based on Yaoyao Liu's personal website."
     url: "https://github.com/yaoyao-liu/homepage"
+baseurl: /
 
 include:
   - _pages

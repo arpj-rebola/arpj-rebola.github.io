@@ -40,15 +40,14 @@ socials:
 navigation:
   - title: "Home"
     url: /
+  - title: "News"
+    url: /news/
   - title: "Publications"
     url: /publications/
   - title: "Talks"
     url: /talks/
   - title: "Teaching"
     url: /teaching/
-
-# notice: personal-notice-hiring.md
-
 
 keywords: adrian rebola, adrian rebola pardo, adrian rebola-pardo, arpj-rebola
 canonical: https://arpj-rebola.github.io

@@ -215,6 +215,7 @@ img {
     background: var(--block-color);
     border-radius: 1rem;
     font-weight: 300;
+    text-align: justify;
 }
 
 .notice strong {
@@ -236,6 +237,34 @@ img {
     margin: 0.8rem 0 0.5rem 0;
     width: 100%;
     -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.newspiece {
+    margin: 0.5rem 0 1rem;
+    display: flex;
+}
+
+.newspiece > .date {
+    display: block;
+    font-size: 110%;
+    font-weight: 500;
+    color: var(--struct-main-color);
+    width: 7rem;
+    margin: 0 1.5rem 0 0;
+}
+
+.newspiece > .newsmain {
+    display: block;
+}
+
+.newspiece > .newsmain > .headline {
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-size: 125%;
+    font-weight: 500;
+    color: var(--struct-main-color);
+    line-height: 1.1;
+    display: block;
+    text-align: justify;
 }
 
 /* # Page geometry */

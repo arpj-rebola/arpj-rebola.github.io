@@ -18,9 +18,33 @@ backpath: ./
     My research focuses on <strong>solver certification</strong> and <strong>data extraction from proofs</strong>, especially within the context of reasoning without loss of generality in finite domains (SAT/QBF). As of lately I am transitioning into a broader scope including <strong>model checking</strong>, <strong>interactive software verification</strong> and untapped use cases for logic-based solvers (specifically, <strong>flexible scheduling</strong> and <strong>procedural content generation</strong>). If you are interested in academic collaboration in either of these topics, please send me an email.
 </p>
 
-{% if site.data.personal.notice %}
-{% include {{ site.data.personal.notice }} %}
+{% for category in site.categories %}
+{% if category[0] == "personal-notices" %}
+{% for post in category[1] %}
+{{ post }}
+{% endfor %}
 {% endif %}
+{% endfor %}
+
+<h2>News</h2>
+
+{% for category in site.categories %}
+{% if category[0] == "personal-news" %}
+{% for post in category[1] %}
+<div class="newspiece">
+    <div class="date">
+        {{ post.date | date: "%-d/%m/%Y" }}
+    </div>
+    <div class="newsmain">
+        <div class="headline">
+            {{ post.title }}
+        </div>
+        {{ post }}
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+{% endfor %}
 
 <h2>Biography</h2>
 

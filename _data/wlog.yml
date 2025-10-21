@@ -19,6 +19,8 @@ keywords: hardware verification, verification, adrian rebola-pardo, georg weisse
 navigation:
   - title: "Home"
     url: /wlog
+  - title: "News"
+    url: /wlog/news/
   - title: "People"
     url: /wlog/people/
   - title: "Jobs"
@@ -54,8 +56,6 @@ people:
   opening:
     name: Open position
     pfp: assets/img/open-position.svg
-
-notice: wlog-notice-hiring.md
 
 links:
   docfunds: https://forsyte.at/docfunds/

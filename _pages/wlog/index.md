@@ -11,9 +11,35 @@ This project works towards extending techniques for reasoning and certification 
 as a middle ground between push-button model checking and proof assistant-based verification.
 </div>
 
-{% if site.data.wlog.notice %}
-{% include {{ site.data.wlog.notice }} %}
+{% for category in site.categories %}
+{% if category[0] == "wlog-notices" %}
+{% for post in category[1] %}
+{{ post }}
+{% endfor %}
 {% endif %}
+{% endfor %}
+
+<h2>News</h2>
+
+{% for category in site.categories %}
+{% if category[0] == "wlog-news" %}
+{% for post in category[1] %}
+<div class="newspiece">
+    <div class="date">
+        {{ post.date | date: "%-d/%m/%Y" }}
+    </div>
+    <div class="newsmain">
+        <div class="headline">
+            {{ post.title }}
+        </div>
+        {{ post }}
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+<h2>Project description</h2>
 
 A recent surge in custom silicon design for general purpose CPUs, as well as accelerators, led to an increased demand for rigorous and scalable verification techniques. Formal verification can provide strong correctness guarantees and is widely deployed in electronic design automation. However, automated formal verification techniques (such as model checking) suffer from scalability challenges. Whenever these techniques time out or run out of memory, no guarantees are obtained. Tools often feature hard-coded search heuristics and reductions that can alleviate this issue, so long as they can automatically identify the right reduction.
 
