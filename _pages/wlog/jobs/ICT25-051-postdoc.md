@@ -11,20 +11,25 @@ dirpath:
 <h1>Post-doctoral Project Assistant position on Model Checking and Automated Reasoning</h1>
 
 <div class="summary">
-We advertise a funded position at the
-<a href="{{ site.data.wlog.affiliation-url }}">{{ site.data.wlog.affiliation }} ({{ site.data.wlog.affiliation-short }})</a>
-for a postdoc research assistant in the context of our new project
-<a href="{{ site.data.wlog.canonical }}">{{ site.data.wlog.title }}</a>
-supported by the
-<a href="{{ site.data.wlog.funding-url }}">{{ site.data.wlog.funding }} ({{ site.data.wlog.funding-short }})</a>.
-Successful applicants will work on the extension of techniques for reasoning and certification without loss of generality
-from SAT solving and combinatorial optimization (e.g. redundance, dominance) to hardware model checking.
-This project targets a tighter integration of user input in model checkers
-as a middle ground between push-button model checking and proof assistant-based verification.
+<p>
+<a href="{{ site.data.wlog.affiliation-url }}">TU Wien</a>
+is Austria's largest institution of research and higher 
+education in the fields of technology and natural sciences. With over 
+26,000 students and more than 4000 scientists, research, teaching, and 
+learning dedicated to the advancement of science and technology have 
+been conducted here for more than 200 years, guided by the motto 
+"Technology for People". As a driver of innovation, TU Wien fosters 
+close collaboration with business and industry and contributes to the 
+prosperity of society.
+</p>
+
+<p>
+At the <a href="{{ site.data.wlog.links.e192 }}">Institute of Logic and Computation</a>, in the Research Unit of <a href="https://forsyte.at">Formal Methods in Systems Engineering (192-04)</a>, TU Wien is offering a  position as a <strong>University Assistant Post-Doc (all genders)</strong>. The position is limited to expected <strong>2 years for 40 hours/week</strong>, or <strong>4 years for 20 hours/week</strong>.
+</p>
 </div>
 
 <div class="notice">
-    We welcome applications from excellent candidates until <strong>{{ site.data.wlog.jobs[1].deadline }}</strong>.
+    We welcome applications from excellent candidates until <strong>{{ site.data.wlog.jobs[0].deadline }}</strong>.
     <div class="button-row">
         <a class="btn-big" href="#applications">Apply now</a>
     </div>
