@@ -44,9 +44,9 @@ This project targets a tighter integration of user input in model checkers
 as a middle ground between push-button model checking and proof assistant-based verification.
 
 The researcher will be supervised by
-<a href="{{ site.data.wlog.people[1].url }}">{{ site.data.wlog.people[1].name }}</a>
+<a href="{{ site.data.wlog.people.staff[1].url }}">{{ site.data.wlog.people.staff[1].name }}</a>
 and co-supervised by
-<a href="{{ site.data.wlog.people[0].url }}">{{ site.data.wlog.people[0].name }}</a>.
+<a href="{{ site.data.wlog.people.staff[0].url }}">{{ site.data.wlog.people.staff[0].name }}</a>.
 Furthermore, the student will be integrated in our
 <a href="{{ site.data.wlog.links.docfunds }}">Doctoral college in Automated Reasoning</a>.
 The doctoral student position is financially supported for up to <strong>4&nbsp;years full-time (40 hours/week)</strong>.

@@ -36,8 +36,8 @@ At the <a href="{{ site.data.wlog.links.e192 }}">Institute of Logic and Computat
 </div>
 
 The researcher will work closely with
-<a href="{{ site.data.wlog.people[1].url }}">{{ site.data.wlog.people[1].name }}</a>
-and <a href="{{ site.data.wlog.people[0].url }}">{{ site.data.wlog.people[0].name }}</a>,
+<a href="{{ site.data.wlog.people.staff[1].url }}">{{ site.data.wlog.people.staff[1].name }}</a>
+and <a href="{{ site.data.wlog.people.staff[0].url }}">{{ site.data.wlog.people.staff[0].name }}</a>,
 in addition to PhD students from the
 <a href="{{ site.data.wlog.links.docfunds }}">Doctoral college in Automated Reasoning</a>.
 
