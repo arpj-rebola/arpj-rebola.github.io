@@ -121,7 +121,7 @@ including publications, conference contributions, and other scientific activitie
 <li>English language certificate (TOEFL or similar), unless your Bachelor’s or Master’s thesis was written in English.</li>
 <li>Two letters of recommendation (e.g., by your master’s thesis advisor).
 Please provide only the referees' names and contact data;
-your referees themselves must directly send their recommendation letter.</li>
+we ourselves will contact your referees.</li>
 </ul>
 
 After the initial screening process, selected applicants will be invited to give a brief presentation (either in person or online) of their previous research.

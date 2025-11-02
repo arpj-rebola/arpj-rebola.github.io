@@ -118,8 +118,6 @@ including publications, conference contributions, and other scientific activitie
 <li>A copy of your dissertation; if not written in English, please include a one-page English summary.</li>
 <li>A copy of the Transcripts of records of your PhD.</li>
 <li>If your dissertation is not written in English, an English language certificate (TOEFL or similar).</li>
-<li>Two letters of recommendation. Please provide only the referees' names and contact data;
-your referees themselves must directly send their recommendation letter.</li>
 </ul>
 
 After the initial screening process, selected applicants will be invited to give a brief presentation (either in person or online) of their previous research.
