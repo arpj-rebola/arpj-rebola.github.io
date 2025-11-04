@@ -9,7 +9,7 @@ dirpath:
 ---
 
 
-<h1>Phd Student Project Assistant position on Model Checking and Automated Reasoning</h1>
+<h1>PhD Student Project Assistant position on Model Checking and Automated Reasoning</h1>
 
 <div class="summary">
 <p>
