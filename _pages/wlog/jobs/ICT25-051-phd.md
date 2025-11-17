@@ -30,7 +30,7 @@ At the <a href="{{ site.data.wlog.links.e192 }}">Institute of Logic and Computat
 </div>
 
 <div class="notice">
-    We welcome applications from excellent candidates until <strong>{{ site.data.wlog.jobs[0].deadline }}</strong>.
+    We welcome applications from excellent candidates to start in <strong>early 2026</strong>.
     <div class="button-row">
         <a class="btn-big" href="#applications">Apply now</a>
     </div>

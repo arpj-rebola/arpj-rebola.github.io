@@ -26,7 +26,7 @@ We are currently looking for excellent candidates to join <a href="/wlog/people"
     <li>
 
         <div class="header">
-            <a href="{{ job.link }}">{{ job.title }}</a>&#x2001;(deadline: {{ job.deadline }})
+            <a href="{{ job.link }}">{{ job.title }}</a>{% if job.deadline %}&#x2001;(deadline: {{ job.deadline }}){% endif %}
         </div>
         <div class="description">
             {{ job.length }}, starting {{ job.start }}

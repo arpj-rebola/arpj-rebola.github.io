@@ -1,5 +1,23 @@
 main:
 
+  - title: Faster Certified Symmetry Breaking using Orders with Auxiliary Variables
+    authors:
+      - Markus Anders
+      - Bart Bogaerts
+      - Benjamin Bogø
+      - Arthur Gontier
+      - Wietze Koops
+      - Ciaran McCreesh
+      - Magnus O. Myreen
+      - Jakob Nordström
+      - Andy Oertel
+      - Adrian Rebola-Pardo
+      - Yong Kiam Tan
+    conference-short: AAAI&nbsp;2026
+    conference: 40th Annual AAAI Conference on Artificial Intelligence
+    year: "2026"
+    comment: "to appear"
+
   - title: Short proofs without interference
     authors:
       - Adrian Rebola-Pardo
